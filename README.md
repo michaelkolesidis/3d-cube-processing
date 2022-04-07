@@ -1,11 +1,13 @@
-# 3D Cube
-<img src="https://github.com/michaelkolesidis/3d-cube/blob/main/screenshot.png">
-
-A 3D cube rotating according to mouse movement. 
-
-<br>
-
 <div align="center">
+  <h1>3D Cube</h1>
+
+  <img src="https://github.com/michaelkolesidis/3d-cube/blob/main/screenshot.png">
+  
+  <h3>A 3D cube rotating according to mouse movement. </h3>
+  
+  <br>
+  <br>
+  
   <h3>Made using GNU/Linux</h3>
   <img src="https://gnulinuxgreece.github.io/gnu_linux.svg" style="width: 280px;">
 </div>
