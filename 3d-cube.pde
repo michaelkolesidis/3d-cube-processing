@@ -5,12 +5,12 @@ float speed = 0.01;   // Rotation speed
 float t = 100;        // Cube size 
 
 void setup() {
-  size(600, 600, P3D);
-	smooth();
+  size(1000, 1000, P3D);
+	smooth(8);
 }
 
 void draw() {
-  background(255);
+  background(0);
   rectMode(CENTER);
 	noStroke();
 
@@ -26,42 +26,42 @@ void draw() {
   // Draw the sides of the cube and apply color
   beginShape(QUADS);
   // front side
-  fill(#E83F6F);
+  fill(#ff14eb);
   vertex(-t, -t, 0);
   vertex(t, -t, 0);
   vertex(t, t, 0);
   vertex(-t, t, 0);
 
   // right side
-  fill(#F47F38);
+  fill(#14f7ff);
   vertex(t, -t, 0);
   vertex(t, -t, -2*t);
   vertex(t, t, -2*t);
   vertex(t, t, 0);
 
   // back side
-  fill(#FFBF00);
+  fill(#ff14eb);
   vertex(t, -t, -2*t);
   vertex(t, t, -2*t);
   vertex(-t, t, -2*t);
   vertex(-t, -t, -2*t);
 
   // left side
-  fill(#855A8A);
+  fill(#14f7ff);
   vertex(-t, -t, -2*t);
   vertex(-t, t, -2*t);
   vertex(-t, t, 0);
   vertex(-t, -t, 0);
 
   // bottom side
-  fill(#2274A5);
+  fill(#14ff3b);
   vertex(-t, t, 0);
   vertex(t, t, 0);
   vertex(t, t, -2*t);
   vertex(-t, t, -2*t);
 
   // top side
-  fill(#32936F);
+  fill(#f3ff14);
   vertex(-t, -t, 0);
   vertex(t, -t, 0);
   vertex(t, -t, -2*t);
