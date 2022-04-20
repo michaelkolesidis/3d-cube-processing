@@ -1,7 +1,7 @@
 <div align="center">
   <h1>3D Cube</h1>
 
-  <img src="https://github.com/michaelkolesidis/3d-cube/blob/main/screenshot.png" style="width: 500px;">
+  <img src="./screenshot.png" style="width: 500px;">
   
   <h3>A 3D cube rotating according to mouse movement. </h3>
 </div>
