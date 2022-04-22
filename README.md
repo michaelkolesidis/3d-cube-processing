@@ -12,6 +12,11 @@
 <a href="https://www.java.com/en/"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/java/java-original.svg" height="50px" /></a>
 
 
+## Description
+A 3D that rotates according to the movement of the cursor inside  the application window. It was created with Processing, a Java library for creative coding. The cude is a complex shape, consisting of vertices. You can read more abou the imnplementation <a href="https://processing.org/reference/beginShape_.html">here</a>.
+
+
+
 
 ## License
 
